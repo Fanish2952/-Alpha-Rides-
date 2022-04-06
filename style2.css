@@ -1,0 +1,21 @@
+body{
+background-image:url(off road.jpg);
+background-color: light yellow;
+background-size: cover;
+background-attachment: fixed;
+}
+.content{
+background: white;
+width: 50%;
+padding: 40px;
+margin: 100px auto;
+}
+
+
+
+img {
+    width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;300;500&display=swap');
+*{
+   font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behaviour: smooth;
+    scroll-padding-top: 10rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+     --main-color: #2288ff;
+     --second-color: #192f6a;
+     --text-color: #314862;
+     --bg-color: #fff;
+
+     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
+}
+img {
+    width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+    }
+ body {
+      color: var(--text-color);
+     }
+section{
+      padding: 4.5rem 0 3rem;      
+}
+
+.nav {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 20px 35px; 
+}
+ .logo {
+       display: flex;
+       align-items: center;
+       column-gap: 0.5rem;
+       font-size: 1rem;
+       font-weight: 700;
+       color: var(--text-color);
+       text-transform: uppercase;
+   }
+.logo .bx {
+         font-size: 24px;
+         color: var(--main-color);
+}
+.navbar {
+       display: flex;
+       }
+.navbar a { 
+           padding: 8px 17px;
+           color: var(--text-color);
+           font-size: 1rem;
+           text-transform: uppercase;
+           font-weight: 500;
+}
+.navbar a:hover {
+              color:var(--main-color);
+} 
+
+#menu-icon{
+      font-size:24px;
+      cursor: pointer;
+     
+}
+#menu{
+    display:none;
+}
+.btn{
+   padding: 8px 22px;
+   background: var(--main-color);
+   color: var(--bg-color);
+   border-radius: 7rem;
+}
+.btn:hover{
+background: #3492fd;
+margin-right: right;
+}
+
+.home{
+      margin-top: 5rem;
+      background: url(img3.png);
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      border-radius: 1.5rem;
+      display: flex;
+      align-items: left;
+background-repeat: no-repeat;
+
+}
+.home-text h1{
+             color: var(--bg-color);
+             font-size: 2rem;
+             margin-bottom: 2rem;
+}
+.about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, auto))1;
+          gap: 4rem;
+}
+
+.about-img img{
+ border-radius: 1.5rem;
+ background-size: cover;
+ align-items: left;
+background-repeat: no-repeat;
+ }
+
+.about-text span{
+font-size: 2rem;
+text-transform: uppercase;
+font-weight: 500;
+color: var(--main-color);
+}
+
+.ab-text h2{
+font-size: 1.7rem;
+}
+.about-text p{
+font-size: 0.938rem;
+margin: 1 rem 1 2rem;
+margin-bottom: 2rem;
+}
+.sales{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+gap: 3.5rem;
+}
+.sales .box{
+padding: 20px;
+bcakground: var(--bg-color);
+back-shadow: var(--box-shadow);
+text-align: center;
+border-radius: 2rem;
+}
+.sales .box:hover{
+background: var(--main-color);
+color: var(--bg-color);
+transition: 0.4s all-linear;
+}
+
+.sales .box .bx{
+padding: 10px;
+border-radius: 50%;
+background: #f6f6fe;
+color: var(--main-color);
+font-size: 20px;
+} 
+.sales .box h3{
+font-size: 1.5rem;
+margin: 1rem 0 0.4rem;
+}
+.sales .box p{
+font-size: 1 rem
+}
+body{background-color:#ffffe0;}
+.heading{
+text-align: center;
+}
+.heading span{
+font-weight: 500;
+color: var(--main-color);
+}
+.heading h2{
+font-size: 107rem;
+}
+.heading p{
+font-size: 0.938rem;
+}
+.properties{
+background: #fbfbfb;
+}
+h4{
+font-family: vardana;
+color: black;
+font-size: 5rem;
+text-align:center
+margin-bottom: 5rem;
+}
+h5{
+font-family: calibri;
+color: blue;
+font-size: 2rem;
+text-align: left;
+margin-bottom: 1rem;
+}
+
+h6{
+font-family: calibri;
+color: blue;
+font-size: 2rem;
+text-align: left;
+margin-bottom: 1rem;
+}
+
+h7{
+font-family: calibri;
+color: blue;
+font-size: 2rem;
+text-align: left;
+margin-bottom: 3rem;
+} 
+
+
+h8{
+font-family: calibri;
+color: blue;
+font-size: 2rem;
+text-align: left;
+margin-bottom: 3rem;
+} 
+
+
+.fixed-box{
+     float: right;
+     background: blue;
+     width: 100%;
+     height: 280px;
+}
+
+
+
+
+.gallery{
+     margin: 5px;
+      border: 1px solid #ccc;
+     float: left;
+     width: 100%;
+}
+
+.gallery img{
+            width: 100%;
+            height: auto; 
+}
+.desc{
+     padding:15px;
+      text-align:center;
+}
+
+footer{
+      padding:10px;
+      font-size:17px;
+      font-weight:bold;
+      text-align:center;
+      background:#594848;
+      color:white;
+      font-family:Arial;
+      letter-spacing:1px;
+}
